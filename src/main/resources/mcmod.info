@@ -1,0 +1,21 @@
+[
+{
+  "modid": "torque",
+  "name": "Torque",
+  "description": "todo",
+  "version": "1.0.0",
+  "mcversion": "1.11.2",
+  "url": "https://github.com/Zerrens/Torque",
+  "updateUrl": "",
+  "authorList": [
+    "Velleth"
+  ],
+  "credits": "Velleth, Forge/FML guys, Mojang, and the open source Github community",
+  "logoFile": "assets/torque/logo.png",
+  "screenshots": [],
+  "parent": "",
+  "dependencies": [
+
+  ]
+}
+]

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "wooden_machine=shaft": { "model": "torque:wooden_machine/shaft"}
+  }
+}
