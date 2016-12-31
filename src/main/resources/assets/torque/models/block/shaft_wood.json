@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "torque:blocks/shaft_wood/shaft",
+    "up": "torque:blocks/shaft_wood/shaft",
+    "north": "torque:blocks/shaft_wood/shaft",
+    "east": "torque:blocks/shaft_wood/shaft",
+    "south": "torque:blocks/shaft_wood/shaft",
+    "west": "torque:blocks/shaft_wood/shaft",
+    "particle": "torque:blocks/shaft_wood/shaft"
+  }
+}

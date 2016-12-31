@@ -1,6 +1,6 @@
 package torque.api.block;
 
-import net.minecraft.block.Block;
+import com.velleth.torque.block.shaft.BlockShaftWood;
 
 /**
  * Created by Zerren on 12/26/2016.
@@ -8,6 +8,6 @@ import net.minecraft.block.Block;
 public class TorqueBlocks {
 
     //Regular Blocks
-    public static Block WOODEN_MACHINE_0;
+    public static BlockShaftWood SHAFT_WOOD;
 
 }

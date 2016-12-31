@@ -11,13 +11,10 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.NonNullList;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
-import java.util.List;
 
 /**
  * Created by Zerren on 12/26/2016.
@@ -28,7 +25,8 @@ public class BlockTorque extends Block {
 
     public BlockTorque(String name, PropertyHelper property, Material material, float hardness, float resistance, SoundType sound, CreativeTabs tab) {
         super(material);
-        this.setUnlocalizedName(name);
+        //this.setUnlocalizedName(name);
+        buildUnlocalizedName(name);
         this.setRegistryName(name);
         this.PROPERTY_METADATA = property;
         this.setCreativeTab(tab);
@@ -44,6 +42,10 @@ public class BlockTorque extends Block {
 
     public boolean hasMetaTypes() {
         return PROPERTY_METADATA != null;
+    }
+
+    private void buildUnlocalizedName(String name) {
+        this.setUnlocalizedName(Reference.ModInfo.MOD_ID + "." + name);
     }
 
     @SideOnly(Side.CLIENT)

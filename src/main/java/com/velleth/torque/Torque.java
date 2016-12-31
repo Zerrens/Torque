@@ -54,6 +54,9 @@ public class Torque {
 
         //CRDictionary.init();
         //PacketHandler.init();
+
+        proxy.registerBlockClient();
+        proxy.registerItemClient();
     }
 
     @Mod.EventHandler
@@ -65,8 +68,6 @@ public class Torque {
         proxy.initISBRH();
         proxy.initArmorRender();*/
 
-        proxy.registerBlockClient();
-        proxy.registerItemClient();
     }
 
     @Mod.EventHandler

@@ -6,9 +6,9 @@ package com.velleth.torque.reference;
 public final class Names {
 
     public static final class Blocks {
-        public static final String WOODEN_MACHINE_0 = "wooden_machine";
-        public static final String[] WOODEN_MACHINE_0_TYPES = {
-                "shaft"
-        };
+        public static final String SHAFT_WOOD = "shaft_wood";
+        public static final String SHAFT_IRON = "shaft_iron";
+        public static final String SHAFT_STEEL = "shaft_steel";
+
     }
 }

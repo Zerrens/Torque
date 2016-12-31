@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "torque:shaft_wood",
+    "textures": {
+      "front": "torque:blocks/shaft_wood/shaft"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "facing": {
+      "north": {},
+      "south": {
+        "y": 180
+      },
+      "west": {
+        "y": 270
+      },
+      "east": {
+        "y": 90
+      },
+      "up": {
+        "x": -90
+      },
+      "down": {
+        "x": 90
+      }
+    },
+    "enabled": {
+      "false": {},
+      "true": {
+        "textures": {
+          "front": "torque:blocks/shaft_wood/shaft"
+        }
+      }
+    }
+  }
+}
